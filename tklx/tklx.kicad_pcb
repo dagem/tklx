@@ -224,28 +224,28 @@
 	(net 103 "Net-(D98-A)")
 	(net 104 "Net-(D99-A)")
 	(net 105 "Net-(D100-A)")
-	(net 106 "Net-(MX34-COL)")
-	(net 107 "Net-(MX10-COL)")
-	(net 108 "Net-(MX12-COL)")
-	(net 109 "Net-(MX18-COL)")
-	(net 110 "Net-(MX24-COL)")
-	(net 111 "Net-(MX29-COL)")
-	(net 112 "Net-(MX40-COL)")
-	(net 113 "Net-(MX45-COL)")
-	(net 114 "Net-(MX50-COL)")
-	(net 115 "Net-(MX56-COL)")
-	(net 116 "Net-(MX62-COL)")
-	(net 117 "Net-(MX68-COL)")
-	(net 118 "Net-(MX78-COL)")
-	(net 119 "Net-(MX81-COL)")
-	(net 120 "Net-(MX85-COL)")
-	(net 121 "Net-(MX91-COL)")
+	(net 106 "COL2")
+	(net 107 "COL3")
+	(net 108 "COL4")
+	(net 109 "COL5")
+	(net 110 "COL6")
+	(net 111 "COL7")
+	(net 112 "COL8")
+	(net 113 "COL9")
+	(net 114 "COL10")
+	(net 115 "COL11")
+	(net 116 "COL12")
+	(net 117 "COL13")
+	(net 118 "COL14")
+	(net 119 "COL15")
+	(net 120 "COL16")
+	(net 121 "COL17")
 	(net 122 "Net-(D95-A)")
-	(net 123 "Net-(MX73-COL)")
+	(net 123 "COL18")
 	(footprint "MX_Only:MXOnly-2U-NoLED"
 		(layer "F.Cu")
 		(uuid "018c2659-6d38-414a-83a0-7b96e261ff08")
-		(at 340.51875 57.15)
+		(at 407.19375 150.01875)
 		(property "Reference" "MX95"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -483,7 +483,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 118 "Net-(MX78-COL)")
+			(net 119 "COL15")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "5e96f94d-f9ea-4811-853b-46b90e87ee5e")
@@ -503,7 +503,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "02bb5875-72b3-4cd3-a8d3-feeaf6f237a0")
-		(at 173.83125 95.25)
+		(at 240.50625 188.11875)
 		(property "Reference" "MX32"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -713,7 +713,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 111 "Net-(MX29-COL)")
+			(net 110 "COL6")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "c0ec9a7d-5bbb-4413-9c9e-826aa062e50b")
@@ -733,7 +733,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "0af25566-a345-4f21-8efd-64b4082dc0d4")
-		(at 216.69375 57.15)
+		(at 283.36875 150.01875)
 		(property "Reference" "MX46"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -943,7 +943,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 113 "Net-(MX45-COL)")
+			(net 113 "COL9")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "8332f98a-8d70-4b58-a8e9-06c49093e541")
@@ -963,7 +963,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "0b78e6e2-03b1-4261-806e-fceb6ff03176")
-		(at 188.11875 33.3375)
+		(at 254.79375 126.20625)
 		(property "Reference" "MX34"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -1173,7 +1173,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 106 "Net-(MX34-COL)")
+			(net 111 "COL7")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "4280efe5-f9bf-448f-b633-1cbea4e6d710")
@@ -1193,7 +1193,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "0b918387-baef-4b39-affd-424fe93f5eef")
-		(at 392.90625 114.3)
+		(at 459.58125 207.16875)
 		(property "Reference" "MX88"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -1403,7 +1403,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 120 "Net-(MX85-COL)")
+			(net 121 "COL17")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "2ba7583b-3590-4e29-a343-9a6af67db197")
@@ -1423,7 +1423,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "0ea03290-2b90-4a3f-9fb2-a6d80f0ca9ec")
-		(at 57.15 57.15)
+		(at 126.20625 150.01875)
 		(property "Reference" "MX1"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -1653,7 +1653,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "0f794c87-6dfe-4626-ac10-6ad743fc04e6")
-		(at 411.95625 133.35)
+		(at 478.63125 226.21875)
 		(property "Reference" "MX94"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -1863,7 +1863,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 121 "Net-(MX91-COL)")
+			(net 123 "COL18")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "0480d6d4-407c-4eec-a0b5-aaa30f8d9b0d")
@@ -1883,7 +1883,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "142be27c-e1e5-4526-bbb1-5aaa2fc0314b")
-		(at 250.03125 95.25)
+		(at 316.70625 188.11875)
 		(property "Reference" "MX53"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -2093,7 +2093,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 114 "Net-(MX50-COL)")
+			(net 114 "COL10")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "3258fc6c-54e1-49d3-80bf-ab923264cf9c")
@@ -2113,7 +2113,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "19375e6d-01f3-45e2-b57f-f30b9a94ed54")
-		(at 126.20625 33.3375)
+		(at 192.88125 126.20625)
 		(property "Reference" "MX18"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -2323,7 +2323,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 109 "Net-(MX18-COL)")
+			(net 108 "COL4")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "b516bd1f-7b3a-42e7-87c4-c275f68d70d8")
@@ -2343,7 +2343,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "1c5a1335-ca6b-4de8-9259-52373bbee18a")
-		(at 164.30625 114.3)
+		(at 230.98125 207.16875)
 		(property "Reference" "MX28"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -2553,7 +2553,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 110 "Net-(MX24-COL)")
+			(net 109 "COL5")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "ce63ab7a-b12f-4e33-896e-e6425e4f109b")
@@ -2573,7 +2573,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "1cbc77e8-39fd-4bf0-8f80-3918ef015719")
-		(at 326.23125 33.3375)
+		(at 392.90625 126.20625)
 		(property "Reference" "MX74"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -2783,7 +2783,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 123 "Net-(MX73-COL)")
+			(net 118 "COL14")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "f8783134-7310-49ce-96b0-c9ffefaae94a")
@@ -2803,7 +2803,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "1d93d6a0-b931-479f-9b0c-7d9b1720330e")
-		(at 297.65625 114.3)
+		(at 364.33125 207.16875)
 		(property "Reference" "MX66"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -3013,7 +3013,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 116 "Net-(MX62-COL)")
+			(net 116 "COL12")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "68163a54-3eee-4a83-9c3b-0f759b17036e")
@@ -3033,7 +3033,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "29368108-cfa6-45c8-ae7c-03c1328e581e")
-		(at 178.59375 57.15)
+		(at 245.26875 150.01875)
 		(property "Reference" "MX35"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -3243,7 +3243,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 106 "Net-(MX34-COL)")
+			(net 111 "COL7")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "7047a6e6-8eb8-4e15-84b4-2bceb9222488")
@@ -3263,7 +3263,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "2b2cde8f-7b3a-47dd-a328-8e0c0d645e20")
-		(at 135.73125 95.25)
+		(at 202.40625 188.11875)
 		(property "Reference" "MX21"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -3473,7 +3473,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 109 "Net-(MX18-COL)")
+			(net 108 "COL4")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "5a866917-e814-4efa-8e7d-bebf90b30543")
@@ -3493,7 +3493,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "2df21e2a-ee9c-4582-8ea6-0f3c895225c7")
-		(at 111.91875 76.2)
+		(at 178.59375 169.06875)
 		(property "Reference" "MX14"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -3703,7 +3703,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 108 "Net-(MX12-COL)")
+			(net 107 "COL3")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "585b6e41-9a4a-4354-888d-3a325d0c0ecc")
@@ -3723,7 +3723,7 @@
 	(footprint "MX_Only:MXOnly-1.5U-NoLED"
 		(layer "F.Cu")
 		(uuid "2fc26a40-4b22-4855-a313-e9449d5fd930")
-		(at 88.10625 76.2)
+		(at 154.78125 169.06875)
 		(property "Reference" "MX8"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -3933,7 +3933,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 107 "Net-(MX10-COL)")
+			(net 106 "COL2")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "4a5d255f-edef-4701-a85d-dacd9ca244cc")
@@ -3953,7 +3953,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "3361d318-13b9-4de6-b94a-ae8e4edeea67")
-		(at 245.26875 76.2)
+		(at 311.94375 169.06875)
 		(property "Reference" "MX52"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -4163,7 +4163,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 114 "Net-(MX50-COL)")
+			(net 114 "COL10")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "d72f9956-543c-4997-984b-a28b3488ef4a")
@@ -4183,7 +4183,7 @@
 	(footprint "MX_Only:MXOnly-1.25U-NoLED"
 		(layer "F.Cu")
 		(uuid "3384b216-bf34-4617-9267-c46a049f75e4")
-		(at 323.85 133.35)
+		(at 390.525 226.21875)
 		(property "Reference" "MX67"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -4393,7 +4393,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 116 "Net-(MX62-COL)")
+			(net 116 "COL12")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "42da9b4f-c8ae-4362-b7fa-3d8df1253ee2")
@@ -4413,7 +4413,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "3783bd45-9181-4ccd-8d31-d33b328f2df1")
-		(at 57.15 133.35)
+		(at 126.20625 226.21875)
 		(property "Reference" "MX5"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -4643,7 +4643,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "38208815-c4a9-4c24-9354-ee8087a58cb4")
-		(at 321.46875 76.2)
+		(at 388.14375 169.06875)
 		(property "Reference" "MX76"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -4853,7 +4853,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 123 "Net-(MX73-COL)")
+			(net 118 "COL14")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "465fa18d-c6a9-4089-af85-b9b46f0256a8")
@@ -4873,7 +4873,7 @@
 	(footprint "MX_Only:MXOnly-1.25U-NoLED"
 		(layer "F.Cu")
 		(uuid "382f9c7a-252e-4809-ad50-ecaf0718df95")
-		(at 300.0375 133.35)
+		(at 366.7125 226.21875)
 		(property "Reference" "MX61"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -5083,7 +5083,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 115 "Net-(MX56-COL)")
+			(net 115 "COL11")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "2ca04abf-524a-4448-ad6b-1a5f534a97a9")
@@ -5103,7 +5103,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "3ad332d8-451a-4923-9b0f-90094ff6006f")
-		(at 38.1 95.25)
+		(at 107.15625 188.11875)
 		(property "Reference" "MX98"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -5333,7 +5333,7 @@
 	(footprint "MX_Only:MXOnly-1.25U-NoLED"
 		(layer "F.Cu")
 		(uuid "40744db3-3d1f-4a34-9fcf-57826bb0aed8")
-		(at 133.35 133.35)
+		(at 200.025 226.21875)
 		(property "Reference" "MX23"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -5543,7 +5543,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 109 "Net-(MX18-COL)")
+			(net 108 "COL4")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "8be71cb1-174d-40d8-8690-1658714efde5")
@@ -5563,7 +5563,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "41e8c402-b2c8-4721-874c-0f03f1ef5569")
-		(at 207.16875 76.2)
+		(at 273.84375 169.06875)
 		(property "Reference" "MX42"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -5773,7 +5773,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 112 "Net-(MX40-COL)")
+			(net 112 "COL8")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "6ef0d858-4867-4297-b1ce-581d0c8622ea")
@@ -5793,7 +5793,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "42182322-1797-4c38-b64b-b1b96b598df2")
-		(at 57.15 95.25)
+		(at 126.20625 188.11875)
 		(property "Reference" "MX3"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -6023,7 +6023,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "432dc3b0-2c6f-44c8-9e7e-f1d905221cc8")
-		(at 269.08125 95.25)
+		(at 335.75625 188.11875)
 		(property "Reference" "MX59"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -6233,7 +6233,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 115 "Net-(MX56-COL)")
+			(net 115 "COL11")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "a1edfbe5-db27-4449-8010-614134644303")
@@ -6253,7 +6253,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "44ee90f1-dfa6-447b-a440-aee192b5f2e0")
-		(at 145.25625 33.3375)
+		(at 211.93125 126.20625)
 		(property "Reference" "MX24"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -6463,7 +6463,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 110 "Net-(MX24-COL)")
+			(net 109 "COL5")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "659bdd11-4b03-4ffe-8cd7-f6d6d6bc4443")
@@ -6483,7 +6483,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "4553a523-7d8a-4ee8-98ff-aef61075f253")
-		(at 126.20625 114.3)
+		(at 192.88125 207.16875)
 		(property "Reference" "MX16"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -6693,7 +6693,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 108 "Net-(MX12-COL)")
+			(net 107 "COL3")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "4ee6ae1e-8d25-43eb-9568-5ed59d062a6e")
@@ -6713,7 +6713,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "45953e32-699d-43e5-b063-c6a35bab1698")
-		(at 288.13125 33.3375)
+		(at 354.80625 126.20625)
 		(property "Reference" "MX62"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -6923,7 +6923,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 116 "Net-(MX62-COL)")
+			(net 116 "COL12")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "5e6f623c-c060-4a88-86a5-fb4698d46930")
@@ -6943,7 +6943,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "473c91c4-6620-4aef-a321-17d3077b5452")
-		(at 38.1 114.3)
+		(at 107.15625 207.16875)
 		(property "Reference" "MX99"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -7173,7 +7173,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "4862d7f3-3373-4c0c-a639-4eaab0b62966")
-		(at 350.04375 33.3375)
+		(at 416.71875 126.20625)
 		(property "Reference" "MX78"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -7383,7 +7383,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 118 "Net-(MX78-COL)")
+			(net 119 "COL15")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "5dc315c9-aa29-48fc-8d8f-d938929b47be")
@@ -7403,7 +7403,7 @@
 	(footprint "MX_Only:MXOnly-1.5U-NoLED"
 		(layer "F.Cu")
 		(uuid "4b8e5511-6bfc-4f3c-a840-5e1de06c94a7")
-		(at 345.28125 76.2)
+		(at 411.95625 169.06875)
 		(property "Reference" "MX79"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -7613,7 +7613,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 118 "Net-(MX78-COL)")
+			(net 119 "COL15")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "9ac3c0e4-df1b-4613-8d36-5c9c3c147d50")
@@ -7633,7 +7633,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "52795163-6934-4d54-abb9-afb0ed89d046")
-		(at 373.85625 57.15)
+		(at 440.53125 150.01875)
 		(property "Reference" "MX82"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -7843,7 +7843,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 119 "Net-(MX81-COL)")
+			(net 120 "COL16")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "c5e0d3b5-3a4a-4931-9655-4fd05831b35e")
@@ -7863,7 +7863,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "6abcee15-fcfe-4ce1-a3c0-5b70cd29ce6b")
-		(at 221.45625 114.3)
+		(at 288.13125 207.16875)
 		(property "Reference" "MX44"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -8073,7 +8073,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 112 "Net-(MX40-COL)")
+			(net 112 "COL8")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "be11f3f0-8469-4544-9c83-d96a11bb9a52")
@@ -8093,7 +8093,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "6ac1fe2f-54e3-4fa9-9f91-2bcd8802bd5f")
-		(at 121.44375 57.15)
+		(at 188.11875 150.01875)
 		(property "Reference" "MX19"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -8303,7 +8303,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 109 "Net-(MX18-COL)")
+			(net 108 "COL4")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "60bed203-0f53-4a87-804e-ad0be11e68d8")
@@ -8323,7 +8323,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "6b7409bc-384d-4981-912c-9970f3ffac5e")
-		(at 150.01875 76.2)
+		(at 216.69375 169.06875)
 		(property "Reference" "MX26"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -8533,7 +8533,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 110 "Net-(MX24-COL)")
+			(net 109 "COL5")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "d6e53de5-3948-4c3e-b262-331d36cb71ca")
@@ -8553,7 +8553,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "6e005fa3-6ec6-4309-8434-52eb3f09385a")
-		(at 373.85625 76.2)
+		(at 440.53125 169.06875)
 		(property "Reference" "MX83"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -8763,7 +8763,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 119 "Net-(MX81-COL)")
+			(net 120 "COL16")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "2ef11734-61b8-466a-98b3-a1a15e2bb2fd")
@@ -8783,7 +8783,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "6edc46e9-3465-468a-8748-413636446bdd")
-		(at 169.06875 76.2)
+		(at 235.74375 169.06875)
 		(property "Reference" "MX31"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -8993,7 +8993,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 111 "Net-(MX29-COL)")
+			(net 110 "COL6")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "651262ac-7550-4485-9264-db2a92d98cb4")
@@ -9013,7 +9013,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "7065d564-4f8a-4b7f-b5e1-a6c2c305cad7")
-		(at 269.08125 33.3375)
+		(at 335.75625 126.20625)
 		(property "Reference" "MX56"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -9223,7 +9223,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 115 "Net-(MX56-COL)")
+			(net 115 "COL11")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "6e8b387c-3448-457d-b5c3-d14edf73df78")
@@ -9243,7 +9243,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "72906f38-bcd4-4ea4-b059-88387fc4b950")
-		(at 38.1 133.35)
+		(at 107.15625 226.21875)
 		(property "Reference" "MX100"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -9473,7 +9473,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "79ff82e8-e6a2-45ad-9ce8-12162b68fabf")
-		(at 254.79375 57.15)
+		(at 321.46875 150.01875)
 		(property "Reference" "MX57"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -9683,7 +9683,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 115 "Net-(MX56-COL)")
+			(net 115 "COL11")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "abc28767-8743-46cb-ad44-512cdfd6dd47")
@@ -9703,7 +9703,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "7a192f00-70cb-42c7-98fb-f0f4ac6be723")
-		(at 154.78125 95.25)
+		(at 221.45625 188.11875)
 		(property "Reference" "MX27"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -9913,7 +9913,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 110 "Net-(MX24-COL)")
+			(net 109 "COL5")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "3ce9c7ff-22f5-4871-a91a-3cbefc2e2c9a")
@@ -9933,7 +9933,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "806f4a72-7b82-4abc-8aeb-502f58dafbfe")
-		(at 57.15 76.2)
+		(at 126.20625 169.06875)
 		(property "Reference" "MX2"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -10163,7 +10163,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "84a3765a-8f5e-496b-a9a0-fd9f3a588aab")
-		(at 226.21875 33.3375)
+		(at 292.89375 126.20625)
 		(property "Reference" "MX45"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -10373,7 +10373,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 113 "Net-(MX45-COL)")
+			(net 113 "COL9")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "33d5c008-9af7-4c79-9a1f-cc8072df9049")
@@ -10393,7 +10393,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "86b49227-f389-4b4c-949a-1d873974d3f6")
-		(at 283.36875 76.2)
+		(at 350.04375 169.06875)
 		(property "Reference" "MX64"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -10603,7 +10603,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 116 "Net-(MX62-COL)")
+			(net 116 "COL12")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "8d2930d0-9c84-4082-b509-c8fafd0be538")
@@ -10623,7 +10623,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "878c2724-ccb7-4a34-b1dc-2bc36abaedb2")
-		(at 307.18125 95.25)
+		(at 373.85625 188.11875)
 		(property "Reference" "MX71"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -10833,7 +10833,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 117 "Net-(MX68-COL)")
+			(net 117 "COL13")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "e52cfc5f-73f0-4382-b57a-dbe1498a94e7")
@@ -10853,7 +10853,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "887ad015-0ad0-44cc-be01-341b340014c1")
-		(at 230.98125 95.25)
+		(at 297.65625 188.11875)
 		(property "Reference" "MX48"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -11063,7 +11063,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 113 "Net-(MX45-COL)")
+			(net 113 "COL9")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "7574d78b-1a45-45c1-a452-ca4e2c48af30")
@@ -11083,7 +11083,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "8a66c22a-fa28-4ad7-b6d4-b15ba673e877")
-		(at 411.95625 76.2)
+		(at 478.63125 169.06875)
 		(property "Reference" "MX93"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -11293,7 +11293,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 121 "Net-(MX91-COL)")
+			(net 123 "COL18")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "e3baaba6-e76b-4a47-8431-e1b1f80f28a1")
@@ -11313,7 +11313,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "92d17b17-d08a-4c0e-aba6-07a00769837a")
-		(at 130.96875 76.2)
+		(at 197.64375 169.06875)
 		(property "Reference" "MX20"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -11523,7 +11523,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 109 "Net-(MX18-COL)")
+			(net 108 "COL4")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "ad3916cc-7081-4a28-bb09-4173f6dd7579")
@@ -11543,7 +11543,7 @@
 	(footprint "MX_Only:MXOnly-2.25U-NoLED"
 		(layer "F.Cu")
 		(uuid "9341c7e0-33ad-4ff5-82f5-a15e892f8eac")
-		(at 338.1375 95.25)
+		(at 404.8125 188.11875)
 		(property "Reference" "MX80"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -11781,7 +11781,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 118 "Net-(MX78-COL)")
+			(net 119 "COL15")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "fe5d2287-9614-44bd-9e26-f03c7bbd66e5")
@@ -11801,7 +11801,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "975a5952-1998-43b1-9414-398425c662ca")
-		(at 38.1 57.15)
+		(at 107.15625 150.01875)
 		(property "Reference" "MX96"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -12031,7 +12031,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "97bd0a89-a60d-4616-aa53-58471c98d9ae")
-		(at 192.88125 95.25)
+		(at 259.55625 188.11875)
 		(property "Reference" "MX37"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -12241,7 +12241,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 106 "Net-(MX34-COL)")
+			(net 111 "COL7")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "9fc9cf48-f8d4-4f4b-bf95-7abd765611bb")
@@ -12261,7 +12261,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "9c2fba59-ab8c-4cc2-924f-522446203dad")
-		(at 392.90625 76.2)
+		(at 459.58125 169.06875)
 		(property "Reference" "MX87"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -12471,7 +12471,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 120 "Net-(MX85-COL)")
+			(net 121 "COL17")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "a60af980-ba1e-47dd-8883-6857e0e1e279")
@@ -12491,7 +12491,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "9e36901e-ca14-48ca-b087-600fc3698b39")
-		(at 240.50625 114.3)
+		(at 307.18125 207.16875)
 		(property "Reference" "MX49"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -12701,7 +12701,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 113 "Net-(MX45-COL)")
+			(net 113 "COL9")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "f5525180-11a7-47b7-ba76-ab954d2bcb9a")
@@ -12721,7 +12721,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "a33d4ab1-0b1c-48cc-acfa-c633cc60da9c")
-		(at 235.74375 57.15)
+		(at 302.41875 150.01875)
 		(property "Reference" "MX51"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -12931,7 +12931,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 114 "Net-(MX50-COL)")
+			(net 114 "COL10")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "05c6fe90-2a87-458b-84ba-0354c2429ee4")
@@ -12951,7 +12951,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "a7f8b6ed-b492-4122-825f-f1a17f8c4f5c")
-		(at 392.90625 57.15)
+		(at 459.58125 150.01875)
 		(property "Reference" "MX86"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -13161,7 +13161,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 120 "Net-(MX85-COL)")
+			(net 121 "COL17")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "cdad7118-3f99-495d-ad85-186cd53c5fdf")
@@ -13181,7 +13181,7 @@
 	(footprint "MX_Only:MXOnly-2.25U-NoLED"
 		(layer "F.Cu")
 		(uuid "a855d403-b5f6-4555-abc5-db9cc7fc7c5c")
-		(at 95.25 114.3)
+		(at 161.925 207.16875)
 		(property "Reference" "MX10"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -13419,7 +13419,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 107 "Net-(MX10-COL)")
+			(net 106 "COL2")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "9816c422-0555-4f53-ab2d-d5ffc217a3e5")
@@ -13439,7 +13439,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "aa370ead-0c0f-4b7c-a1f9-364dba9b5881")
-		(at 373.85625 33.3375)
+		(at 440.53125 126.20625)
 		(property "Reference" "MX81"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -13649,7 +13649,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 119 "Net-(MX81-COL)")
+			(net 120 "COL16")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "ed5bde37-a1d8-4b15-af43-a7bcd1fb6e99")
@@ -13669,7 +13669,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "ac8a2367-fbae-49bc-a8dd-8d6598a04fd3")
-		(at 311.94375 57.15)
+		(at 378.61875 150.01875)
 		(property "Reference" "MX75"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -13879,7 +13879,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 123 "Net-(MX73-COL)")
+			(net 118 "COL14")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "bb0b1310-20cf-4ebd-ad82-bb530d171d74")
@@ -13899,7 +13899,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "ae64869c-f841-4971-b4eb-8e0994978811")
-		(at 102.39375 57.15)
+		(at 169.06875 150.01875)
 		(property "Reference" "MX13"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -14109,7 +14109,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 108 "Net-(MX12-COL)")
+			(net 107 "COL3")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "ad20ffd6-2b43-4041-8ae3-608ae1f18df1")
@@ -14129,7 +14129,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "aff26524-8232-4102-8ecb-1696c4b2f22a")
-		(at 292.89375 57.15)
+		(at 359.56875 150.01875)
 		(property "Reference" "MX69"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -14339,7 +14339,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 117 "Net-(MX68-COL)")
+			(net 117 "COL13")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "3fd734bc-3edd-4375-86f2-4b015db49a12")
@@ -14359,7 +14359,7 @@
 	(footprint "MX_Only:MXOnly-1.75U-NoLED"
 		(layer "F.Cu")
 		(uuid "b1250512-bf31-4f22-8765-ada1b1acaeb3")
-		(at 90.4875 95.25)
+		(at 157.1625 188.11875)
 		(property "Reference" "MX9"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -14569,7 +14569,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 107 "Net-(MX10-COL)")
+			(net 106 "COL2")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "ef8785d7-2bd2-4111-8c50-97054f8dae9f")
@@ -14589,7 +14589,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "ba0ef1be-e707-4d94-974e-6ff8a8f48a5d")
-		(at 373.85625 133.35)
+		(at 440.53125 226.21875)
 		(property "Reference" "MX84"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -14799,7 +14799,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 119 "Net-(MX81-COL)")
+			(net 120 "COL16")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "34627272-4c0f-432e-8a5c-bbc59cfccb04")
@@ -14819,7 +14819,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "bb1fa8c0-0210-4159-8130-b6000f103893")
-		(at 392.90625 33.3375)
+		(at 459.58125 126.20625)
 		(property "Reference" "MX85"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -15029,7 +15029,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 120 "Net-(MX85-COL)")
+			(net 121 "COL17")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "81c5392b-fb34-4161-8bd4-2f796d97cab4")
@@ -15049,7 +15049,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "bdc814a0-6b6e-4eab-99ab-d20eb0d0f779")
-		(at 188.11875 76.2)
+		(at 254.79375 169.06875)
 		(property "Reference" "MX36"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -15259,7 +15259,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 106 "Net-(MX34-COL)")
+			(net 111 "COL7")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "01a4f6c0-df73-4b36-ac88-4e9419e60a27")
@@ -15279,7 +15279,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "c07f9ea6-4231-417a-a0ce-0d90e13f1681")
-		(at 140.49375 57.15)
+		(at 207.16875 150.01875)
 		(property "Reference" "MX25"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -15489,7 +15489,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 110 "Net-(MX24-COL)")
+			(net 109 "COL5")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "f8dca3fb-8d67-45fe-abe4-fbe526f450b0")
@@ -15509,7 +15509,7 @@
 	(footprint "MX_Only:MXOnly-2.75U-NoLED"
 		(layer "F.Cu")
 		(uuid "c1856be0-4633-4aa4-88ea-5103b03a4135")
-		(at 333.375 114.3)
+		(at 400.05 207.16875)
 		(property "Reference" "MX77"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -15747,7 +15747,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 123 "Net-(MX73-COL)")
+			(net 118 "COL14")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "230e5c73-e312-4876-8f30-27937c5bff2e")
@@ -15767,7 +15767,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "c36179d4-c17c-4d5e-ab00-70b917c0914b")
-		(at 307.18125 33.3375)
+		(at 373.85625 126.20625)
 		(property "Reference" "MX68"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -15977,7 +15977,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 117 "Net-(MX68-COL)")
+			(net 117 "COL13")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "a33e0250-64eb-48e8-9348-f54ec32085fe")
@@ -15997,7 +15997,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "c6636320-3184-4f10-91fe-0ea5dd61d187")
-		(at 145.25625 114.3)
+		(at 211.93125 207.16875)
 		(property "Reference" "MX22"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -16207,7 +16207,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 109 "Net-(MX18-COL)")
+			(net 108 "COL4")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "f583cc10-8007-4f8d-8416-3c6f95c3d352")
@@ -16227,7 +16227,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "cb5b93e7-d8b1-4b1a-8902-719e49c6356a")
-		(at 159.54375 57.15)
+		(at 226.21875 150.01875)
 		(property "Reference" "MX30"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -16437,7 +16437,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 111 "Net-(MX29-COL)")
+			(net 110 "COL6")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "fdddcbb8-7513-4357-96e3-14095a0229d3")
@@ -16457,7 +16457,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "cbfa2b05-83f3-43bb-8e13-52a3c41646e7")
-		(at 164.30625 33.3375)
+		(at 230.98125 126.20625)
 		(property "Reference" "MX29"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -16667,7 +16667,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 111 "Net-(MX29-COL)")
+			(net 110 "COL6")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "8c3c34ac-3059-4010-8952-c6654679024b")
@@ -16687,7 +16687,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "cfaf3521-3c3a-4591-9ba5-ff177ebd160a")
-		(at 259.55625 114.3)
+		(at 326.23125 207.16875)
 		(property "Reference" "MX54"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -16897,7 +16897,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 114 "Net-(MX50-COL)")
+			(net 114 "COL10")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "1a077039-87ef-4fb5-82d2-9908793189f2")
@@ -16917,7 +16917,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "d0bfd741-dbfe-4f12-b7b1-d4a15be963ae")
-		(at 226.21875 76.2)
+		(at 292.89375 169.06875)
 		(property "Reference" "MX47"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -17127,7 +17127,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 113 "Net-(MX45-COL)")
+			(net 113 "COL9")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "c27bde8f-6ade-4dd9-b13d-9f47fd305d8d")
@@ -17147,7 +17147,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "d371b58f-5634-4b9a-83ae-cdbbd7d28b1d")
-		(at 197.64375 57.15)
+		(at 264.31875 150.01875)
 		(property "Reference" "MX41"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -17357,7 +17357,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 112 "Net-(MX40-COL)")
+			(net 112 "COL8")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "a3144939-d78f-4aa6-b37b-50d55b032d3b")
@@ -17377,7 +17377,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "d6f10d50-ce1d-495b-947d-671d6a65d861")
-		(at 264.31875 76.2)
+		(at 330.99375 169.06875)
 		(property "Reference" "MX58"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -17587,7 +17587,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 115 "Net-(MX56-COL)")
+			(net 115 "COL11")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "770d54f5-931c-4bff-91b4-214769cbbdea")
@@ -17607,7 +17607,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "d82ca93a-df57-4971-97a4-dd0ae8199687")
-		(at 302.41875 76.2)
+		(at 369.09375 169.06875)
 		(property "Reference" "MX70"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -17817,7 +17817,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 117 "Net-(MX68-COL)")
+			(net 117 "COL13")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "34203c9f-0011-43b1-b021-e895bf995aaf")
@@ -17837,7 +17837,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "d894fbbf-ae8c-41bc-9150-9927dc22e330")
-		(at 107.15625 33.3375)
+		(at 173.83125 126.20625)
 		(property "Reference" "MX12"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -18047,7 +18047,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 108 "Net-(MX12-COL)")
+			(net 107 "COL3")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "8c2e5923-5b75-4127-8126-cfd6d8c30709")
@@ -18067,7 +18067,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "d8c1726e-23e5-4465-b056-8704b7ace6bf")
-		(at 288.13125 95.25)
+		(at 354.80625 188.11875)
 		(property "Reference" "MX65"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -18277,7 +18277,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 116 "Net-(MX62-COL)")
+			(net 116 "COL12")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "d50f1c88-f0fa-454b-8ed6-5dd0dff1661c")
@@ -18297,7 +18297,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "dadabde3-3119-43ff-ba7b-b499dff62c59")
-		(at 245.26875 33.3375)
+		(at 311.94375 126.20625)
 		(property "Reference" "MX50"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -18507,7 +18507,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 114 "Net-(MX50-COL)")
+			(net 114 "COL10")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "0bd43abf-0337-4cc1-8147-a64c9541076b")
@@ -18527,7 +18527,7 @@
 	(footprint "MX_Only:MXOnly-1.25U-NoLED"
 		(layer "F.Cu")
 		(uuid "db8f2291-2adf-457b-b66b-1befaa2ffbc9")
-		(at 347.6625 133.35)
+		(at 414.3375 226.21875)
 		(property "Reference" "MX73"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -18737,7 +18737,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 123 "Net-(MX73-COL)")
+			(net 118 "COL14")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "4e201ba5-1ba9-4539-a957-059c8ffeb4cb")
@@ -18757,7 +18757,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "de58f952-a9b0-4d2b-b402-6f51ff0e098d")
-		(at 392.90625 133.35)
+		(at 459.58125 226.21875)
 		(property "Reference" "MX90"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -18967,7 +18967,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 120 "Net-(MX85-COL)")
+			(net 121 "COL17")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "452e9591-180b-4941-9879-858e56e011f3")
@@ -18987,7 +18987,7 @@
 	(footprint "MX_Only:MXOnly-1.25U-NoLED"
 		(layer "F.Cu")
 		(uuid "e1b15c29-769b-4040-badd-4ee6f16bf9c1")
-		(at 109.5375 133.35)
+		(at 176.2125 226.21875)
 		(property "Reference" "MX17"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -19197,7 +19197,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 108 "Net-(MX12-COL)")
+			(net 107 "COL3")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "daeee557-1f32-418d-a17e-e00dda59e9f7")
@@ -19217,7 +19217,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "e20b9e5c-b223-4d5f-9dca-2c16e8696820")
-		(at 116.68125 95.25)
+		(at 183.35625 188.11875)
 		(property "Reference" "MX15"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -19427,7 +19427,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 108 "Net-(MX12-COL)")
+			(net 107 "COL3")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "b1be4b6f-3c21-4008-8a2b-8800d8d4df24")
@@ -19447,7 +19447,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "e2df5a99-e219-48e7-b345-c99b4f704ae0")
-		(at 83.34375 33.3375)
+		(at 150.01875 126.20625)
 		(property "Reference" "MX6"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -19657,7 +19657,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 107 "Net-(MX10-COL)")
+			(net 106 "COL2")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "6831de09-aa0c-485b-af14-b2a9ed427f31")
@@ -19677,7 +19677,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "e4e9c536-2cec-4117-9fa6-1dbe6e262f27")
-		(at 411.95625 57.15)
+		(at 478.63125 150.01875)
 		(property "Reference" "MX92"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -19887,7 +19887,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 121 "Net-(MX91-COL)")
+			(net 123 "COL18")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "154aba1b-bb28-4a0e-b3b9-cb842cf73cfb")
@@ -19907,7 +19907,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "ece5bc71-482a-4b89-a457-bc5d72245585")
-		(at 273.84375 57.15)
+		(at 340.51875 150.01875)
 		(property "Reference" "MX63"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -20117,7 +20117,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 116 "Net-(MX62-COL)")
+			(net 116 "COL12")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "07fc4d3b-b293-4882-99de-d18935b9f631")
@@ -20137,7 +20137,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "ed4483ff-faa4-4d6c-8628-f2cb7b5dd02f")
-		(at 278.60625 114.3)
+		(at 345.28125 207.16875)
 		(property "Reference" "MX60"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -20347,7 +20347,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 115 "Net-(MX56-COL)")
+			(net 115 "COL11")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "81b19599-522c-46d1-ad81-4182ee1f9326")
@@ -20367,7 +20367,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "ed789c76-59e4-47d7-a903-8a23ff6354f7")
-		(at 211.93125 95.25)
+		(at 278.60625 188.11875)
 		(property "Reference" "MX43"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -20577,7 +20577,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 112 "Net-(MX40-COL)")
+			(net 112 "COL8")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "25144660-4e16-422d-9eaa-dd15f9a3822a")
@@ -20597,7 +20597,7 @@
 	(footprint "MX_Only:MXOnly-1.25U-NoLED"
 		(layer "F.Cu")
 		(uuid "efb32eb9-85a9-4669-88d4-d529612a641e")
-		(at 85.725 133.35)
+		(at 152.4 226.21875)
 		(property "Reference" "MX11"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -20807,7 +20807,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 107 "Net-(MX10-COL)")
+			(net 106 "COL2")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "d1e8f4b1-19ac-4118-8a58-5dcffea65ace")
@@ -20827,7 +20827,7 @@
 	(footprint "MX_Only:MXOnly-1.25U-NoLED"
 		(layer "F.Cu")
 		(uuid "f22a80e7-cd76-47a3-a75e-de1073ed6c94")
-		(at 276.225 133.35)
+		(at 342.9 226.21875)
 		(property "Reference" "MX55"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -21037,7 +21037,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 114 "Net-(MX50-COL)")
+			(net 114 "COL10")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "059d4920-596a-47c4-af80-b75f5af6b1b5")
@@ -21057,7 +21057,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "f297db61-6518-44a6-8a12-f544c2aa28c7")
-		(at 207.16875 33.3375)
+		(at 273.84375 126.20625)
 		(property "Reference" "MX40"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -21267,7 +21267,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 112 "Net-(MX40-COL)")
+			(net 112 "COL8")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "ab376d45-fb76-4605-ab7d-7f98340e41ee")
@@ -21287,7 +21287,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "f3c4fe69-2ead-4fd7-a6db-2a68d0b3ca11")
-		(at 83.34375 57.15)
+		(at 150.01875 150.01875)
 		(property "Reference" "MX7"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -21497,7 +21497,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 107 "Net-(MX10-COL)")
+			(net 106 "COL2")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "d1a54b8a-8078-4a51-92cc-3536d654dcaa")
@@ -21517,7 +21517,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "f4eaba59-ae10-4fdb-a7a8-05f101baba89")
-		(at 411.95625 33.3375)
+		(at 478.63125 126.20625)
 		(property "Reference" "MX91"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -21727,7 +21727,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 121 "Net-(MX91-COL)")
+			(net 123 "COL18")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "b3c98667-52be-4fdc-b410-bc0556492234")
@@ -21747,7 +21747,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "f62ee056-e8e1-4af0-860c-1228d06f1775")
-		(at 57.15 114.3)
+		(at 126.20625 207.16875)
 		(property "Reference" "MX4"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -21977,7 +21977,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "f7b70ade-cb6f-44f4-a33f-ca65b8f83c50")
-		(at 202.40625 114.3)
+		(at 269.08125 207.16875)
 		(property "Reference" "MX38"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -22187,7 +22187,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 106 "Net-(MX34-COL)")
+			(net 111 "COL7")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "0c7be846-bec3-4f19-b88e-c232bcd0b75d")
@@ -22207,7 +22207,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "fc76c6da-5e52-48fe-aa55-b001286d3ac8")
-		(at 38.1 76.2)
+		(at 107.15625 169.06875)
 		(property "Reference" "MX97"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -22437,7 +22437,7 @@
 	(footprint "MX_Only:MXOnly-1U-NoLED"
 		(layer "F.Cu")
 		(uuid "feaec8f0-52c7-4795-8b51-f68879ef971e")
-		(at 183.35625 114.3)
+		(at 250.03125 207.16875)
 		(property "Reference" "MX33"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -22647,7 +22647,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 111 "Net-(MX29-COL)")
+			(net 110 "COL6")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "3166fe11-738f-4072-856a-ba7be6442e96")
@@ -22667,7 +22667,7 @@
 	(footprint "MX_Only:MXOnly-6.25U-NoLED"
 		(layer "F.Cu")
 		(uuid "ffdde655-9e48-46cb-854d-6105c935064f")
-		(at 204.7875 133.35)
+		(at 271.4625 226.21875)
 		(property "Reference" "MX39"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
@@ -22905,7 +22905,7 @@
 			(drill 1.47)
 			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
-			(net 106 "Net-(MX34-COL)")
+			(net 111 "COL7")
 			(pinfunction "COL")
 			(pintype "passive")
 			(uuid "0b1d3dc8-376a-46af-9593-4be3760d6d69")
@@ -22925,7 +22925,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "022058ae-5730-426d-8d1d-e9203d2eabe6")
-		(at 359.56875 61.9125 90)
+		(at 426.24375 154.78125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D95"
@@ -23254,7 +23254,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "04530cdc-d2b3-4fe8-b123-f61e719f3919")
-		(at 164.30625 100.0125 90)
+		(at 230.98125 192.88125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D27"
@@ -23583,7 +23583,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "04e4ddc6-b81a-4bb7-9b53-2878b8e4b8f9")
-		(at 421.48125 61.9125 90)
+		(at 488.15625 154.78125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D92"
@@ -23912,7 +23912,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "0826dc0a-ba2b-4eb9-89e5-34c3532909fd")
-		(at 66.675 119.0625 90)
+		(at 135.73125 211.93125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D4"
@@ -24241,7 +24241,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "08ac186d-4f10-4a67-8a9c-efc07ec23d95")
-		(at 216.69375 80.9625 90)
+		(at 283.36875 173.83125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D42"
@@ -24570,7 +24570,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "0ad2849a-3ae6-4d5e-9533-15e5275c6f3a")
-		(at 66.675 61.9125 90)
+		(at 135.73125 154.78125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D1"
@@ -24899,7 +24899,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "0c9ac3f0-fa05-4def-87d4-12ed8a029621")
-		(at 140.69375 80.9125 90)
+		(at 207.36875 173.78125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D20"
@@ -25228,7 +25228,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "0cd30dd6-78c8-4f82-b729-17353517c9c7")
-		(at 47.625 138.1125 90)
+		(at 116.68125 230.98125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D100"
@@ -25557,7 +25557,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "101bad19-343a-4881-9f7f-15c3f09d1206")
-		(at 235.74375 38.1 90)
+		(at 302.41875 130.96875 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D45"
@@ -25886,7 +25886,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "11f26dcd-5863-444b-9d5f-469c4d7c1976")
-		(at 312.14375 80.9125 90)
+		(at 378.81875 173.78125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D70"
@@ -26215,7 +26215,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "1644ff29-52b3-4402-a80a-27d76c49f68f")
-		(at 92.86875 61.9125 90)
+		(at 159.54375 154.78125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D7"
@@ -26544,7 +26544,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "17441281-4430-48bd-b975-786e286f3b0b")
-		(at 421.68125 38.05 90)
+		(at 488.35625 130.91875 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D91"
@@ -26873,7 +26873,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "1807b4db-d1c4-4476-a6f9-382bd96fed2f")
-		(at 259.55625 100.0125 90)
+		(at 326.23125 192.88125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D53"
@@ -27202,7 +27202,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "1948c8dc-4eb9-45b9-95e1-a61ec81fb0ac")
-		(at 297.65625 38.1 90)
+		(at 364.33125 130.96875 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D62"
@@ -27531,7 +27531,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "19dae5dc-4ac5-47a3-8601-c5eeb5249c4f")
-		(at 302.41875 61.9125 90)
+		(at 369.09375 154.78125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D69"
@@ -27860,7 +27860,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "1b694e09-3daa-489a-8c3d-e10f3dad9eb7")
-		(at 126.20625 100.0125 90)
+		(at 192.88125 192.88125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D15"
@@ -28189,7 +28189,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "1cbfd116-8926-421f-8ab9-588483c02443")
-		(at 273.84375 80.9625 90)
+		(at 340.51875 173.83125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D58"
@@ -28518,7 +28518,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "1f51ca4c-1cf5-4e97-aeea-c3dc4d4def95")
-		(at 421.48125 80.9625 90)
+		(at 488.15625 173.83125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D93"
@@ -28847,7 +28847,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "2267d3ac-5b13-4aac-b6f8-bb4457c801f5")
-		(at 402.43125 119.0625 90)
+		(at 469.10625 211.93125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D88"
@@ -29176,7 +29176,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "22da1272-d184-4f14-bc9b-67491fce5135")
-		(at 135.73125 38.1 90)
+		(at 202.40625 130.96875 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D18"
@@ -29505,7 +29505,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "257a5d69-c305-4316-a53b-ef6ee0ca6338")
-		(at 216.69375 38.1 90)
+		(at 283.36875 130.96875 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D40"
@@ -29834,7 +29834,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "29e929e5-9a93-4e81-bfd5-7f15a63fe583")
-		(at 154.78125 38.1 90)
+		(at 221.45625 130.96875 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D24"
@@ -30163,7 +30163,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "2df18fdb-54f1-4270-b7b0-f780bb3b3823")
-		(at 283.36875 61.9125 90)
+		(at 350.04375 154.78125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D63"
@@ -30492,7 +30492,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "2e56f5ea-965d-4f72-9832-98e5a8396832")
-		(at 145.25625 138.1125 90)
+		(at 211.93125 230.98125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D23"
@@ -30821,7 +30821,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "2f75fdbe-ab62-4567-8899-409626fa16b2")
-		(at 202.40625 100.0125 90)
+		(at 269.08125 192.88125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D37"
@@ -31150,7 +31150,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "2f84f5ef-ed9b-4b85-b799-754545b48a9d")
-		(at 192.88125 119.0625 90)
+		(at 259.55625 211.93125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D33"
@@ -31479,7 +31479,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "318720c8-8cee-47d0-b2b5-73baa37d127e")
-		(at 97.63125 138.1125 90)
+		(at 164.30625 230.98125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D11"
@@ -31808,7 +31808,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "332c0776-3c40-4fb4-98f8-03039f9a8397")
-		(at 47.625 100.0125 90)
+		(at 116.68125 192.88125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D98"
@@ -32137,7 +32137,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "33620e91-99cb-4b76-92e8-2dded8fbfacf")
-		(at 264.51875 138.0625 90)
+		(at 331.19375 230.93125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D39"
@@ -32466,7 +32466,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "3eac5133-bbf9-41b4-acaf-cf810e32dea5")
-		(at 250.03125 119.0625 90)
+		(at 316.70625 211.93125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D49"
@@ -32795,7 +32795,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "3f3f7e6a-390b-4f3d-8806-d344414c3bba")
-		(at 173.83125 38.1 90)
+		(at 240.50625 130.96875 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D29"
@@ -33124,7 +33124,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "3f44e733-11d0-4389-9455-913c89713b66")
-		(at 107.35625 99.9625 90)
+		(at 174.03125 192.83125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D9"
@@ -33453,7 +33453,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "45d94460-a2f0-4ee9-b2b6-57e5c8f032eb")
-		(at 66.675 138.1125 90)
+		(at 135.73125 230.98125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D5"
@@ -33782,7 +33782,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "49b481c2-c5f7-450b-935f-33e37b428a8a")
-		(at 402.43125 138.1125 90)
+		(at 469.10625 230.98125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D90"
@@ -34111,7 +34111,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "49ced089-79fe-45f4-b656-e2a034cbf0f0")
-		(at 230.98125 119.0625 90)
+		(at 297.65625 211.93125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D44"
@@ -34440,7 +34440,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "49e8812a-405c-411f-a637-593e727e0f1f")
-		(at 321.46875 61.9125 90)
+		(at 388.14375 154.78125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D75"
@@ -34769,7 +34769,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "4b0d7426-37e2-4b85-99f7-8aae816e13e5")
-		(at 330.99375 80.9625 90)
+		(at 397.66875 173.83125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D76"
@@ -35098,7 +35098,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "52bff83d-5486-42bc-a217-e2a5c9b680ef")
-		(at 359.56875 80.9625 90)
+		(at 426.24375 173.83125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D79"
@@ -35427,7 +35427,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "530bec0b-052d-4fe9-921b-eb40dfa57bb9")
-		(at 297.65625 100.0125 90)
+		(at 364.33125 192.88125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D65"
@@ -35756,7 +35756,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "5460c46b-36f6-48d6-8de6-37f7d22f29cf")
-		(at 188.11875 61.9125 90)
+		(at 254.79375 154.78125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D35"
@@ -36085,7 +36085,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "5a7c0672-9aa6-445e-a4bc-a51734dad34c")
-		(at 47.625 119.0625 90)
+		(at 116.68125 211.93125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D99"
@@ -36414,7 +36414,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "5f3988c4-8059-4798-a7e1-2b80310638a7")
-		(at 150.01875 61.9125 90)
+		(at 216.69375 154.78125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D25"
@@ -36743,7 +36743,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "6285ca97-c27a-4ccc-99a4-3a0dd92b1a94")
-		(at 278.60625 100.0125 90)
+		(at 345.28125 192.88125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D59"
@@ -37072,7 +37072,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "62c24aa5-a262-4a7c-9e6e-e3d6ba5f9fcb")
-		(at 292.89375 80.9625 90)
+		(at 359.56875 173.83125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D64"
@@ -37401,7 +37401,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "669ec935-dffc-41ac-ad49-6ed966e091b5")
-		(at 197.64375 80.9625 90)
+		(at 264.31875 173.83125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D36"
@@ -37730,7 +37730,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "66f2ef5a-f89f-4767-aff6-4d3936597bb4")
-		(at 111.91875 61.9125 90)
+		(at 178.59375 154.78125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D13"
@@ -38059,7 +38059,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "6740db11-108a-4eea-bb46-0cc3bb7d6e55")
-		(at 121.44375 138.1125 90)
+		(at 188.11875 230.98125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D17"
@@ -38388,7 +38388,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "6fd7a261-9928-494b-b82c-0852d6dbf7fc")
-		(at 221.45625 100.0125 90)
+		(at 288.13125 192.88125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D43"
@@ -38717,7 +38717,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "7281de7a-b647-478f-96da-0b601b8d91a3")
-		(at 159.54375 80.9625 90)
+		(at 226.21875 173.83125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D26"
@@ -39046,7 +39046,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "77886245-323c-4d9b-bd8e-037d1b953053")
-		(at 278.60625 38.1 90)
+		(at 345.28125 130.96875 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D56"
@@ -39375,7 +39375,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "798f2706-739f-412c-99c0-1e15cdec73ea")
-		(at 402.43125 80.9625 90)
+		(at 469.10625 173.83125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D87"
@@ -39704,7 +39704,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "7bca29b0-e45d-4d65-883a-dd896373c68e")
-		(at 169.26875 61.8625 90)
+		(at 235.94375 154.73125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D30"
@@ -40033,7 +40033,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "7cfd3888-2c42-447d-9553-d16782f6f75d")
-		(at 312.14375 138.0625 90)
+		(at 378.81875 230.93125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D61"
@@ -40362,7 +40362,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "7e8c5b16-b665-4d09-b9a7-39be776ffdf9")
-		(at 335.75625 138.1125 90)
+		(at 402.43125 230.98125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D67"
@@ -40691,7 +40691,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "7f35671a-2b4c-42f7-ab6a-07cd0254d5b2")
-		(at 178.59375 80.9625 90)
+		(at 245.26875 173.83125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D31"
@@ -41020,7 +41020,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "7f401fbb-642b-48cf-a82b-3b6d7233a275")
-		(at 402.43125 61.9125 90)
+		(at 469.10625 154.78125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D86"
@@ -41349,7 +41349,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "83074047-1c73-44b3-a056-d9b118fd1a75")
-		(at 359.56875 138.1125 90)
+		(at 426.24375 230.98125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D73"
@@ -41678,7 +41678,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "837d1b34-8739-41d8-9f8e-309497b7c702")
-		(at 288.13125 138.1125 90)
+		(at 354.80625 230.98125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D55"
@@ -42007,7 +42007,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "83feb4a5-13be-496b-9aab-a2a5a673b78e")
-		(at 421.48125 138.1125 90)
+		(at 488.15625 230.98125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D94"
@@ -42336,7 +42336,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "87616713-b780-4293-82cf-9d7eccecaff8")
-		(at 145.25625 100.0125 90)
+		(at 211.93125 192.88125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D21"
@@ -42665,7 +42665,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "8a05bb10-01bd-41b1-8825-5e768297bcf8")
-		(at 121.64375 80.9125 90)
+		(at 188.31875 173.78125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D14"
@@ -42994,7 +42994,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "8b587087-04b1-4981-bef2-1f6740007804")
-		(at 383.38125 38.1 90)
+		(at 450.05625 130.96875 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D81"
@@ -43323,7 +43323,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "8bbaecc2-662d-4f3d-a34e-a172e18b8b82")
-		(at 197.64375 38.1 90)
+		(at 264.31875 130.96875 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D34"
@@ -43652,7 +43652,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "8c719923-457d-4799-b2fc-227b68f27e9c")
-		(at 245.26875 61.9125 90)
+		(at 311.94375 154.78125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D51"
@@ -43981,7 +43981,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "8dada62c-098b-43c6-b36e-09d032ecfec9")
-		(at 116.68125 38.1 90)
+		(at 183.35625 130.96875 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D12"
@@ -44310,7 +44310,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "8fa35aa4-b9ca-4867-aef8-7df20ba8f0cb")
-		(at 307.18125 119.0625 90)
+		(at 373.85625 211.93125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D66"
@@ -44639,7 +44639,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "914effaa-211c-4df7-87d3-633fb1b3df8b")
-		(at 47.625 61.9125 90)
+		(at 116.68125 154.78125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D96"
@@ -44968,7 +44968,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "92e9cf10-3087-4581-88fa-b0905f158a57")
-		(at 47.625 80.9625 90)
+		(at 116.68125 173.83125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D97"
@@ -45297,7 +45297,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "933901a5-b477-486e-8e9f-ecdbfbdf9f87")
-		(at 102.59375 80.9125 90)
+		(at 169.26875 173.78125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D8"
@@ -45626,7 +45626,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "94b683bd-7fe5-437e-b3bf-378df4a51785")
-		(at 130.96875 61.9125 90)
+		(at 197.64375 154.78125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D19"
@@ -45955,7 +45955,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "968dcde5-6cba-490f-ae6a-9474df2d4c45")
-		(at 154.78125 119.0625 90)
+		(at 221.45625 211.93125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D22"
@@ -46284,7 +46284,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "9fc274a4-c631-436d-98e0-d92c85383aa6")
-		(at 116.88125 119.0125 90)
+		(at 183.55625 211.88125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D10"
@@ -46613,7 +46613,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "a0960490-da69-4e66-a91b-99b420a82955")
-		(at 383.38125 138.1125 90)
+		(at 450.05625 230.98125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D84"
@@ -46942,7 +46942,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "a39b4ceb-1b25-492e-bb8c-33c63ac278e3")
-		(at 135.93125 119.0125 90)
+		(at 202.60625 211.88125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D16"
@@ -47271,7 +47271,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "b33104f3-bd06-4f89-8ea1-abe1ca208b17")
-		(at 66.675 100.0125 90)
+		(at 135.73125 192.88125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D3"
@@ -47600,7 +47600,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "b35e2425-8b4e-4be3-9cac-909147c45460")
-		(at 207.16875 61.9125 90)
+		(at 273.84375 154.78125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D41"
@@ -47929,7 +47929,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "b5d94ed1-4a76-4ab6-9635-ffe9a3aaadbc")
-		(at 226.21875 61.9125 90)
+		(at 292.89375 154.78125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D46"
@@ -48258,7 +48258,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "b97798ee-0ead-425e-8132-35222a0faeb3")
-		(at 264.31875 61.9125 90)
+		(at 330.99375 154.78125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D57"
@@ -48587,7 +48587,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "c9ee35f9-1360-4b3b-ae6f-1cfd8d7e8f98")
-		(at 235.74375 80.9625 90)
+		(at 302.41875 173.83125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D47"
@@ -48916,7 +48916,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "d0d17fb4-c9bf-412e-8781-e86a4de6d4dc")
-		(at 240.50625 100.0125 90)
+		(at 307.18125 192.88125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D48"
@@ -49245,7 +49245,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "d100c897-a617-4c0c-b74f-2ef3881554d6")
-		(at 254.79375 38.1 90)
+		(at 321.46875 130.96875 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D50"
@@ -49574,7 +49574,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "d16fb382-5b3a-4ae0-84c6-3be5e1b6779e")
-		(at 335.75625 38.1 90)
+		(at 402.43125 130.96875 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D74"
@@ -49903,7 +49903,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "d2121821-82ba-4d38-a82e-26a22e028a84")
-		(at 316.70625 100.0125 90)
+		(at 383.38125 192.88125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D71"
@@ -50232,7 +50232,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "d2257622-58ba-4d97-b41e-ab9df9844191")
-		(at 383.38125 61.9125 90)
+		(at 450.05625 154.78125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D82"
@@ -50561,7 +50561,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "d5555266-63b1-4b05-85b6-a2ea6b6b9ed0")
-		(at 211.93125 119.0625 90)
+		(at 278.60625 211.93125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D38"
@@ -50890,7 +50890,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "df84b558-d005-468c-8713-d3293cd293d0")
-		(at 359.56875 119.0625 90)
+		(at 426.24375 211.93125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D77"
@@ -51219,7 +51219,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "e21197f2-991a-4501-adf9-d8f53e1e7e2e")
-		(at 66.475 80.9125 90)
+		(at 135.53125 173.78125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D2"
@@ -51548,7 +51548,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "e3ca3bbd-7b65-4d87-afa8-8aa6c6755264")
-		(at 383.38125 80.9625 90)
+		(at 450.05625 173.83125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D83"
@@ -51877,7 +51877,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "e561a9d6-b54c-4bd2-bf70-d4af6855e126")
-		(at 359.56875 100.0125 90)
+		(at 426.24375 192.88125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D80"
@@ -52206,7 +52206,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "e7a2d783-cf41-45e5-8ae5-2c13ea334fd3")
-		(at 316.70625 38.1 90)
+		(at 383.38125 130.96875 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D68"
@@ -52535,7 +52535,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "e7ac69ea-3aa1-4980-b7dc-4cf6bbc35b1d")
-		(at 92.86875 38.1 90)
+		(at 159.54375 130.96875 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D6"
@@ -52864,7 +52864,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "eb6375c1-2bde-46d1-92b2-a121a7ccb6e6")
-		(at 183.35625 100.0125 90)
+		(at 250.03125 192.88125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D32"
@@ -53193,7 +53193,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "eec0b101-4cfc-40e5-bb60-7fe266366a3d")
-		(at 359.56875 38.1 90)
+		(at 426.24375 130.96875 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D78"
@@ -53522,7 +53522,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "f13ec59d-56ba-42e3-8e45-3b4dd8126036")
-		(at 288.13125 119.0625 90)
+		(at 354.80625 211.93125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D60"
@@ -53851,7 +53851,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "f8efbf99-861a-4ce2-b464-62987cc5412c")
-		(at 254.79375 80.9625 90)
+		(at 321.46875 173.83125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D52"
@@ -54180,7 +54180,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "fd9851b8-29cf-4a46-bc0f-855cd50c8c43")
-		(at 269.08125 119.0625 90)
+		(at 335.75625 211.93125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D54"
@@ -54509,7 +54509,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "fdf3c856-0f7d-45c3-8033-a93292268eeb")
-		(at 402.43125 38.1 90)
+		(at 469.10625 130.96875 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D85"
@@ -54838,7 +54838,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "fed49aaa-bb69-4104-82cd-10cb4f9d9417")
-		(at 173.83125 119.0625 90)
+		(at 240.50625 211.93125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D28"
@@ -55163,5 +55163,16 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(gr_rect
+		(start 92.86875 114.3)
+		(end 493.87125 240.3475)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "39af7308-491c-4b75-bca0-06fd854a27d9")
 	)
 )
