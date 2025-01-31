@@ -22520,7 +22520,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1.75U"
+		(property "Footprint" "MX_Only:MXOnly-1.75U-NoLED"
 			(at 69.215 252.095 0)
 			(effects
 				(font
